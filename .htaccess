@@ -1,5 +1,6 @@
 RewriteEngine On
 
+
 RewriteCond %{REQUEST_FILE} !-d
 RewriteCond %{REQUEST_FILE} !-f
-RewriteRule ^([^/]*)$ index.php?url=$1 [L]
+RewriteRule ^ index.php [L]
