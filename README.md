@@ -2,6 +2,7 @@
 SimpleRESTApi with vanilla OOP PHP CRUD for characterlist
 
 Sample Request
+
 http://localhost/SimpleRESTAPI/read?api_key=123344&id=1
 
 http://localhost/SimpleRESTAPI/read?api_key=1&sort=first_name&limit=3
